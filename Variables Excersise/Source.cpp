@@ -121,12 +121,21 @@
 	system("pause");
 	return 0;
 }*/
-int main() {
+/* int main()
+{//Exercise 6
+	int num5;
+	int num6;
+	int num7;
+	int num8;
+	int num9;
+	int average;
+	std::cin >> num5 >> num6 >> num7 >> num8 >> num9;
+	average = (num5 + num6 + num7 + num8 + num9) / 5;
+	printf("%i", average);
+	system("pause");
+	return 0;
 
 
-
-
-
-
+}*/
 
 
