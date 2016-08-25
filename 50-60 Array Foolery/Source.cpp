@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
- int main()
+ /*int main()*/
 /*{
 	 int array[11] = { 50,51,52,53,54,55,56,57,58,59,60 };
 
@@ -61,7 +61,7 @@ using namespace std;
 	 system("pause");
 	 return 0;
 }*/
-{
+/*{
 	 int bull[10];
 	 int lrgnum= bull[0];
 	 int smallnum= bull[0];
@@ -86,12 +86,4 @@ using namespace std;
 		system("pause");
 		return 0;
 
-}
-
-
-
-
-
-
-
-
+}*/
