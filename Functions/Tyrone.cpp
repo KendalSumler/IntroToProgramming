@@ -34,10 +34,10 @@ float function(float A,float B, float C)
 	float biggestnumber;
 	if (A > B)
 		biggestnumber = A;
+	else if
+		(biggestnumber = B);
 	else
-		biggestnumber = B;
-	else if 
-		biggestnumber = C
+		biggestnumber = C;
 	return biggestnumber;
 }
 
@@ -62,12 +62,11 @@ int main()
 	//std::cout << biggestnumber;
 
 	for (int i = 0; i < 100; i++)
-//	{
-//		std::cout << "biggest of: " << i * 1 << "and " << i * 4 << " is " << function(i * 1, i * 4)<<std::endl;
-//	}
+		//	{
+		//		std::cout << "biggest of: " << i * 1 << "and " << i * 4 << " is " << function(i * 1, i * 4)<<std::endl;
+		//	}
 
-	std::cout << "biggest of: " << i * 1 << "and " << i * 4 << " is " << function(i * 1, i * 4) << std::endl;
-
+		std::cout << "biggest of: " << i * 1 << "and " << i * 4 << " is ";
 
 
 
