@@ -1,4 +1,8 @@
+#include <cstdlib>
 #include <iostream>
+
+
+
 /*void numA(int Pearl)
 {//Exercise 1
 	std::cout << Pearl << std::endl;
@@ -69,12 +73,38 @@ outputs:*/
 //		std::cout << "biggest of: " << i * 1 << "and " << i * 4 << " is ";
 //	system("pause");
 //}
-float number = 16.f;
-float Half(float number)
+
+//float Half(float); // To divide a given number by 2
+//
+//int main()
+//{/*The following statement calls a function named Half. The Half function returns a value that
+//is half that of the argument. Write the function.*/
+////Exercise 4
+//	float Answer = 16.721;
+//	{
+//		std::cout << Answer;
+//	}
+//	system("pause");
+//
+//}
+int CoinToss(int Toss);
+int CoinToss(int Toss) {
+
+}
 
 int main()
-{/*The following statement calls a function named Half. The Half function returns a value that
-is half that of the argument. Write the function.*/
-//Exercise 4
-	
+{//Exercise 5 Write a function named CoinToss that simulates tossing a coin.
+	int coin, flip, tails = 0, heads = 0;
+	for (flip % 2 ; flip <= 100; flip++)
+
+	if (flip > 100)
+	{
+		std::cout << "Heads";
+	}
+	if (flip < 100)
+	{
+		std::cout << "Tails";
+		system("pause");
+		return 0;
+	}
 }
