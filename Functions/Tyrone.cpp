@@ -1,7 +1,15 @@
 #include <cstdlib>
+#include <time.h>
 #include <iostream>
 
+using namespace std;
+int CoinToss(void)
+{
+	int randomNumber;
+	randomNumber = 1 + rand() % 2;
+	return randomNumber;
 
+}
 
 /*void numA(int Pearl)
 {//Exercise 1
@@ -87,24 +95,56 @@ outputs:*/
 //	system("pause");
 //
 //}
-int CoinToss(int Toss);
-int CoinToss(int Toss) {
 
+
+
+
+//int main()
+//{//Exercise 5 Write a function named CoinToss that simulates tossing a coin.
+//	int HowManyTimes = 0;
+//	int randomNumber = 0;
+//	string HeadTail = "";
+//
+//	cout << " How many times do you want to toss the coin?";
+//	cin >> HowManyTimes;
+//
+//	srand((time(0)));
+//	for (int i = 1; i <= HowManyTimes; i++)
+//	{
+//		randomNumber = CoinToss();
+//		if (randomNumber == 1)
+//			HeadTail = "Head";
+//		else
+//			HeadTail = "Tail";
+//		cout << HeadTail << endl;
+//	}
+//	return 0;
+//}
+/*int main()
+{//Exercise 6
+. Find the error in each of the following functions and explain how to fix them.int sum (int x, int y)
+{
+int result;
+result = x + y;
 }
-
+The problem is with the return type. The way to correct this would be to 
+change the result variable to sum
+int sum (int n)
+{
+if (0 == n)
+return 0;
+else
+n = n + n;
+}
+The discrepancy is that the else statement is does not return anything
+the statement needs to change it reurn type type to
 int main()
-{//Exercise 5 Write a function named CoinToss that simulates tossing a coin.
-	int coin, flip, tails = 0, heads = 0;
-	for (flip % 2 ; flip <= 100; flip++)
-
-	if (flip > 100)
-	{
-		std::cout << "Heads";
-	}
-	if (flip < 100)
-	{
-		std::cout << "Tails";
-		system("pause");
-		return 0;
-	}
+{
+double x = 13.6;
+std::cout << "square of 13.6 = " << square(x) << std::endl;
 }
+}
+int square (int x)
+{
+return x * x;
+}*/
