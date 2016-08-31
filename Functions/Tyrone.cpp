@@ -3,12 +3,6 @@
 #include <iostream>
 
 using namespace std;
-int SumTo(int addend1, int addend2) {
-	return addend1 + addend2;
-}
-
-
-
 int CoinToss(void)
 {
 	int randomNumber;
@@ -128,8 +122,7 @@ outputs:*/
 //}
 /*int main()
 {//Exercise 6
-. Find the error in each of the following functions and explain how to fix them.
-int sum (int x, int y)
+. Find the error in each of the following functions and explain how to fix them.int sum (int x, int y)
 {
 int result;
 result = x + y;
@@ -153,17 +146,5 @@ std::cout << "square of 13.6 = " << square(x) << std::endl;
 }
 int square (int x)
 {
-return x * x;
-
+return x * x;
 }*/
-int main()
-{
-	int number1, number2, sum;
-
-	cout << "Enter two integers: \n";
-	cin >> number1 >> number2;
-	sum = SumTo(number1, number2);
-	cout << "\nThe sum is " << sum << ".";
-	system("pause");
-	return 0;
-}
