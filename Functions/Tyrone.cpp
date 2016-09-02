@@ -94,10 +94,7 @@ outputs:*/
 //	}
 //	system("pause");
 //
-//}
-
-
-
+//*/
 
 //int main()
 //{//Exercise 5 Write a function named CoinToss that simulates tossing a coin.
@@ -122,7 +119,8 @@ outputs:*/
 //}
 /*int main()
 {//Exercise 6
-. Find the error in each of the following functions and explain how to fix them.int sum (int x, int y)
+. Find the error in each of the following functions and explain how to fix them.
+int sum (int x, int y)
 {
 int result;
 result = x + y;
@@ -146,5 +144,10 @@ std::cout << "square of 13.6 = " << square(x) << std::endl;
 }
 int square (int x)
 {
-return x * x;
+return x * x;
+
 }*/
+int main()
+{
+
+}
